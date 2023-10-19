@@ -4,23 +4,15 @@ import java.util.List;
 
 public class A {
    Node m1(List<Node> nodes, String p) {
-      // TODO: Your answer
-      // other implementation
 	  extractedMethod(nodes, p);
       return null;
    }
 
    Edge m2(List<Edge> edgeList, String p) {
-      // TODO: Your answer
-      // other implementation
 	  extractedMethod(edgeList, p);
       return null;
    }
 
-   // TODO: Your answer
-   // ? extractedMethod(?) {
-   //
-   // }
    private <T> void extractedMethod(List<T> items, String p) {
 	      for(T item : items) {
 	         if (item instanceof Node) {
